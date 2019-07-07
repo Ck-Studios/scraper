@@ -1,5 +1,4 @@
 #!/usr/bin/env python3.5
-
 # use this file for running on Raspberry Pi
 """Goes through all usernames and collects their information"""
 import json
@@ -37,7 +36,7 @@ try:
       print("Error with user " + username)
 
     with open(Settings.profile_location + '/' + username + '.json', 'w') as fp:
-      json.dump(information, fp)
+      json.dump(information, fp, ensure_ascii=False)
 
     print ("Number of users who commented on their profile is ", len(user_commented_list),"\n")
     file = open(Settings.profile_commentors_location + '/' + username + "_commenters.txt","w")

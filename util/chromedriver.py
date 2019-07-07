@@ -1,4 +1,3 @@
-
 import sys
 from util.settings import Settings
 import re

@@ -1,4 +1,3 @@
-"""Helper module to handle time related stuff"""
 from random import gauss
 from time import sleep as original_sleep
 

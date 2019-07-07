@@ -1,5 +1,4 @@
 #!/usr/bin/env python3.5
-
 """Goes through all usernames and collects their information"""
 import json
 import sys

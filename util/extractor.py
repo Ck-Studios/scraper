@@ -94,9 +94,9 @@ def get_user_info(browser, username):
 
 
     information = {
-        'alias': alias,
-        'username': username,
-        'bio': bio,
+        'alias': str(alias),
+        'username': str(username),
+        'bio': str(bio),
         'prof_img': prof_img,
         'num_of_posts': num_of_posts,
         'followers': followers,
